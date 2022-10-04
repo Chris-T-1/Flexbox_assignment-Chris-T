@@ -1,0 +1,23 @@
+.container_products {
+    display: flex;
+  }
+.container_nav {
+  display: flexbox;
+  justify-content:left;
+  align-items: center;
+}
+.navbar {
+  border-style: solid;
+  border: 3px;
+  overflow: hidden;
+  background-color: grey;
+}
+  .item {
+    flex-grow: 1;
+    height: 100px;
+    background-color: aqua;
+  }
+  
+  .item + .item{
+    margin-left: 2%;
+  }
